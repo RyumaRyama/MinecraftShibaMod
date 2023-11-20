@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=east": { "model": "shibamod:block/tatami", "y": 0 },
+        "facing=south": { "model": "shibamod:block/tatami", "y": 90 },
+        "facing=west": { "model": "shibamod:block/tatami", "y": 180 },
+        "facing=north": { "model": "shibamod:block/tatami", "y": 270 }
+    }
+}
