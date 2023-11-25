@@ -7,5 +7,6 @@ import net.minecraft.world.item.Item;
 public class MainTab {
     public static final Item[] items = {
             ShibaModBlocks.BlockItems.TATAMI.get(),
+            ShibaModBlocks.BlockItems.GAMING_TATAMI_BERI.get(),
     };
 }
