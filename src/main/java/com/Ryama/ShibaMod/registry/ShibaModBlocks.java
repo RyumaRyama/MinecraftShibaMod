@@ -1,5 +1,6 @@
 package com.Ryama.ShibaMod.registry;
 
+import com.Ryama.ShibaMod.block.BlockGamingTatami;
 import com.Ryama.ShibaMod.block.BlockGamingTatamiBeri;
 import com.Ryama.ShibaMod.block.BlockTatami;
 import com.Ryama.ShibaMod.main.ShibaMod;
@@ -16,6 +17,8 @@ public class ShibaModBlocks {
         public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS,
                 ShibaMod.MOD_ID);
         public static final RegistryObject<Block> TATAMI = BLOCKS.register("tatami", BlockTatami::new);
+        public static final RegistryObject<Block> GAMING_TATAMI = BLOCKS.register("gaming_tatami",
+                BlockGamingTatami::new);
         public static final RegistryObject<Block> GAMING_TATAMI_BERI = BLOCKS.register("gaming_tatami_beri",
                 BlockGamingTatamiBeri::new);
     }
@@ -25,6 +28,8 @@ public class ShibaModBlocks {
                 ShibaMod.MOD_ID);
         public static final RegistryObject<Item> TATAMI = BLOCK_ITEMS.register("tatami",
                 () -> new BlockItem(Blocks.TATAMI.get(), new Item.Properties()));
+        public static final RegistryObject<Item> GAMING_TATAMI = BLOCK_ITEMS.register("gaming_tatami",
+                () -> new BlockItem(Blocks.GAMING_TATAMI.get(), new Item.Properties()));
         public static final RegistryObject<Item> GAMING_TATAMI_BERI = BLOCK_ITEMS.register("gaming_tatami_beri",
                 () -> new BlockItem(Blocks.GAMING_TATAMI_BERI.get(), new Item.Properties()));
     }
