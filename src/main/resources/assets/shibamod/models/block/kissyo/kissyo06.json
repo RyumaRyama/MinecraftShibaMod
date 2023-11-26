@@ -1,0 +1,7 @@
+{
+    "parent": "shibamod:block/kissyo/kissyo",
+    "textures": {
+        "main": "shibamod:block/kissyo/kissyo06",
+        "other": "shibamod:block/kissyo/kissyo06"
+    }
+}

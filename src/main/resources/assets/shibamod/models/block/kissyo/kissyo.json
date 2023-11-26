@@ -1,0 +1,17 @@
+{
+    "parent": "minecraft:block",
+    "elements": [
+        {
+            "from": [0, 0, 15],
+            "to": [16, 16, 16],
+            "faces": {
+                "down": {"texture": "#other", "cullface": "down"},
+                "up": {"texture": "#other", "cullface": "up"},
+                "north": {"texture": "#other", "cullface": "north"},
+                "south": {"texture": "#other", "cullface": "south"},
+                "west": {"texture": "#other", "cullface": "west"},
+                "east": {"texture": "#main", "cullface": "east"}
+            }
+        }
+    ]
+}

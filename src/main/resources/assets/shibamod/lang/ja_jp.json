@@ -2,5 +2,15 @@
     "itemGroup.shiba_main_tab": "柴MOD",
     "block.shibamod.tatami": "畳",
     "block.shibamod.gaming_tatami": "ゲーミング畳",
-    "block.shibamod.gaming_tatami_beri": "ゲーミング畳（畳縁）"
+    "block.shibamod.gaming_tatami_beri": "ゲーミング畳（畳縁）",
+
+    "block.shibamod.kissyo01": "キッショ1",
+    "block.shibamod.kissyo02": "キッショ2",
+    "block.shibamod.kissyo03": "キッショ3",
+    "block.shibamod.kissyo04": "キッショ4",
+    "block.shibamod.kissyo05": "キッショ5",
+    "block.shibamod.kissyo06": "キッショ6",
+    "block.shibamod.kissyo07": "キッショ7",
+    "block.shibamod.kissyo08": "キッショ8",
+    "block.shibamod.kissyo09": "キッショ9"
 }

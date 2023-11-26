@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=east": { "model": "shibamod:block/kissyo/kissyo03", "y": 90 },
+        "facing=south": { "model": "shibamod:block/kissyo/kissyo03", "y": 180 },
+        "facing=west": { "model": "shibamod:block/kissyo/kissyo03", "y": 270 },
+        "facing=north": { "model": "shibamod:block/kissyo/kissyo03", "y": 0 }
+    }
+}
