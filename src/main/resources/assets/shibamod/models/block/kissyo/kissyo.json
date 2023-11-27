@@ -8,9 +8,9 @@
                 "down": {"texture": "#other", "cullface": "down"},
                 "up": {"texture": "#other", "cullface": "up"},
                 "north": {"texture": "#other", "cullface": "north"},
-                "south": {"texture": "#other", "cullface": "south"},
+                "south": {"texture": "#main", "cullface": "south"},
                 "west": {"texture": "#other", "cullface": "west"},
-                "east": {"texture": "#main", "cullface": "east"}
+                "east": {"texture": "#other", "cullface": "east"}
             }
         }
     ]
